@@ -16,9 +16,7 @@ module comparator(input [1:0] A,B, output A_less_B, A_equal_B, A_greater_B);
  assign A_greater_B = tmp6 | tmp7 | tmp8;  
  endmodule   
  `timescale     10 ps/ 10 ps  
- // FPGA projects using Verilog/ VHDL  
- // fpga4student.com  
- // Verilog testbench code for 2-bit comparator   
+   
  module tb_comparator;  
  reg [1:0] A, B;  
  wire A_less_B, A_equal_B, A_greater_B;  
